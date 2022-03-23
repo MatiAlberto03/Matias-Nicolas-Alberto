@@ -4,3 +4,10 @@ body{background-color: black;}
 /* 
 body{background-image:;} */
 
+.nav-enclace{
+    background: white;
+    color: black;
+    padding: 10px 30px;
+}
+
+
