@@ -1,19 +1,19 @@
 h1{color: blue}
 
-body{background-color: black;}
+body{background-color:333333;}
 /* 
 body{background-image:;} */
 
 .nav-enclace{
     display: inline-block;
     background: white;
-    color: black;
+    color: 333333;
     padding: 10px 30px;
     text-decoration: none;
 }
 
 .nav-enclace:hover{
-    background: grey;
+    background: 706C61;
 }
 
 nav{
