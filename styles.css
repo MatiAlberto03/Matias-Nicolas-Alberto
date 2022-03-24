@@ -2,8 +2,6 @@
 /* body{background-image:;} */
 
 .wrapper{
-    width: 100px;
-    height: 100px;
-    background-color: 333333;
+    background-color: black
     color: white;
 }
