@@ -1,10 +1,29 @@
 
 /* body{background-image:;} */
 
-.wrapper{
-    background-color: white;
+.wrapper {
+    width: 100vw;
+    height: 100vw;
+    background-color: grey;
+    color: black
 }
 
-.menu{
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.brand { 
+    color: black;
+}
+
+.menu a {
     color:black;
 }
+
+
