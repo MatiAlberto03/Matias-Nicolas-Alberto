@@ -2,6 +2,9 @@
 /* body{background-image:;} */
 
 .wrapper{
-    background-color: black
-    color: white;
+    background-color: white;
+}
+
+.menu{
+    color:black;
 }
