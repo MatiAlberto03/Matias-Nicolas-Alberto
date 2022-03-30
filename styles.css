@@ -3,7 +3,7 @@
  
 #modeloDeCaja{
     width: 300px;
-    border: 15px solid green;
+    border: 10px dotted green;    
     padding: 50px;
     margin: 20px;
 }
