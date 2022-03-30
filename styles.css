@@ -1,6 +1,8 @@
 
 /* body{background-image:;} */
- 
+
+body{background-color: grey;}
+
 #modeloDeCaja{
     width: 300px;
     border: 10px dotted green;    
@@ -8,6 +10,12 @@
     margin: 20px;
 }
 
-#remera-manga-larga{width: 10%; height: 10%; position: relative; right: 10px;}
+#remera-manga-larga{width: 30%; height: 10%;}
 
+#icono-whatsapp{
+    width: 3%;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
 
