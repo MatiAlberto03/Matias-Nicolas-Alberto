@@ -1,14 +1,5 @@
 
-/* body{background-image:;} */
-
-body{background-color: grey;}
-
-#modeloDeCaja{
-    width: 300px;
-    border: 10px dotted green;    
-    padding: 50px;
-    margin: 20px;
-}
+body{background-color: white;}
 
 #remera-manga-larga{width: 30%; height: 10%;}
 
@@ -19,3 +10,19 @@ body{background-color: grey;}
     right: 20px;
 }
 
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: grey;
+}
+
+menu{
+    list-style-type: none;
+    color:black
+    float: right
+}
+
+menu > a > li{
+    display: inline
+}
