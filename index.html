@@ -4,44 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robla & Home</title> 
+    <title>Robla</title> 
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
     <header>
-        <menu>
-           <a href=""><li>Home</li></a>
-            <a href=""><li>Mujer</li></a>
-            <a href=""><li>Hombre</li></a>
-            <a href=""><li>Locales</li></a>
-            <a href=""><li>Contacto</li></a>
-        </menu>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <img id="logo-header" src="./Imagenes/Robla.png" alt="Logo de Robla">
+        
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </header>
 <body>
+    <divc lass="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary"> Clik me</button>
+                <h1>Robla</h1>
+                <img id="remera-manga-larga" src="./Imagenes/r.png" alt="Remera"> 
+                <a href="http://wa.me/+5491150535522">
+                <img id="icono-whatsapp" src="./Imagenes/whatsapp-brands.svg" alt="Icono de Whatsapp">
+                </a>
+                <br>
+                <a href="https://www.instagram.com/robla.hombre.castelar/?hl=es-la"> Pulsa aqui para ir al Instagram</a>
+            </div>
+            <div class="col">
+                <form class="" action="index.html" method="post">
+                    <h3>Introduce tu nombre y apellidos</h3>
+                        <input type="text" name="nombre" placeholder="Pone tu nombre">
+                        <input type="text" name="apellidos" placeholder="Pone tu apellido">
+                        <input type="submit" name="enviar" value="Enviar">
+                    </form>
+            </div>
+            <div class="col-8">
+                <form class="" action="resultado.html" method="get">
+                    <h3>¿Que color de remera te gusta?</h3>
+                    Verde <input type="radio" name="color" value="verde">
+                    Rojo <input type="radio" name="color" value="rojo">
+                    Azul <input type="radio" name="color" value="rojo">
+                <input type="submit" name="enviar" value="Enviar datos">
+            </div>
+          </div>
+    </div>
 
-    <img id="remera-manga-larga" src="./Imagenes/r.png" alt="Remera"> 
-
-    <a href="http://wa.me/+5491150535522">
-    <img id="icono-whatsapp" src="./Imagenes/whatsapp-brands.svg" alt="Icono de Whatsapp">
-    </a>
-    <a href="https://www.instagram.com/robla.hombre.castelar/?hl=es-la"> Pulsa aqui para ir al Instagram</a>
-
-    <form class="" action="index.html" method="post">
-    <h3>Introduce tu nombre y apellidos</h3>
-        <input type="text" name="nombre" placeholder="Pone tu nombre">
-        <input type="text" name="apellidos" placeholder="Pone tu apellido">
-        <input type="submit" name="enviar" value="Enviar">
-    </form>
-
-
-
-    <form class="" action="resultado.html" method="get">
-        <h3>¿Que color de remera te gusta?</h3>
-        Verde <input type="radio" name="color" value="verde">
-        Rojo <input type="radio" name="color" value="rojo">
-        Azul <input type="radio" name="color" value="rojo">
-    <input type="submit" name="enviar" value="Enviar datos">
-
-
+    
+<footer>
+    legales
+</footer>
 
 </body>
 </html>   
