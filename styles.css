@@ -43,5 +43,12 @@ footer{
         display: inline;
 
     }
+.carousel-inner{height: 620px;}
 
-.carousel-inner{height: 300px;}
+h1{
+    color:white;
+}
+
+.nav-link-active{
+    color:white;
+}
