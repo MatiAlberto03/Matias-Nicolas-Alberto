@@ -54,9 +54,15 @@ h1{
 
 .pie-pagina{
     width: 100%;
+    height: 30%;
     background-color: grey;
 }
 
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -93,8 +99,8 @@ h1{
 
 .pie-pagina .grupo-2{
     background-color: black;
-     padding: 15px 10px;
-     color: white
+    padding: 15px 10px;
+    color: white
 }
 
 .pie-pagina .grupo-2 small{
