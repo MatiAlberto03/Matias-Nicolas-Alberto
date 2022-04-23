@@ -67,6 +67,18 @@ h1{
     width: 300px;
 }
 
+.publicaciones .card{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.publicaciones{
+    text-align: center;
+    display: inline;
+}
+
+
 .fotter{
     position: fixed;
     bottom: 0;
