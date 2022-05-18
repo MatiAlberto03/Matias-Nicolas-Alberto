@@ -1,5 +1,12 @@
-console.log("Soy externo")
+function borrarPais(){
+    let paises= document.getElementsByClassName("paises")
+    paises[0].remove()
+}
 
-let h1 =  document.getElementById("PConId")
+function sumarEdad(){
+    let nombreUsuario = document.getElementById("nombre").value
+    let edadUsuario = document.getElementById("edad").value
+    document.body.append("El nombre del usuario es: " + nombreUsuario + "y va a cumplir " + (edadUsuario+1))
 
-console.log(h1)
+
+}

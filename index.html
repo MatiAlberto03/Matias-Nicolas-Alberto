@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <script>
-    console.log("soy interno")
+    $("#carouselExampleIndicators").carousel();
   </script>
   <script src="main.js"></script>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
     <header> 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark flex-column flex-md-row">
-        <h1>Robla</h1>
+        <h1 id="Titular"> Robla</h1>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +54,8 @@
     </header>
 <body>
   <!-- Carousel de imagenes -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
+  <div id="carouselExampleIndicators" class="carousel slide" data.bs.ride="carousel"></div>
+    <div class="carousel-indicators active">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -156,7 +156,7 @@
           <p class="card-text">$2.000</p>
         </div>
       </div> -->
-      
+
 <!-- Fotter -->
 <footer class="pie-pagina">
   <div class="grupo-1">
@@ -172,6 +172,7 @@
         <li>Tabla de talles</li>
         <li>Locales</li>
       </ul>
+      </form>
     </div>
     <div class="box">
       <h2>CONTACTANOS</h2>
