@@ -84,6 +84,33 @@ menu > a > li{
         background-color: grey;
     }
    
+.h2_indumentaria{
+    background-image: url(./Imagenes/Imagen1.jpg);
+}
+.h2_indumentaria{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robla_categorias{
+    margin-left: 20%;
+    margin-top: 7rem;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 60%;
+    height: 9px;
+}
+
+a {
+    
+
+}
 
 .carousel-inner{
     width: 100%;
