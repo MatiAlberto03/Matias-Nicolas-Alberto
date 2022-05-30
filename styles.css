@@ -10,6 +10,11 @@
     opacity: 0.8;
 }
 
+.Imagen1{
+    width: 10px;
+    height: 10px;
+}
+
 .nav-item{
     color: white;
     text-align: center;
@@ -20,9 +25,9 @@
     position: relative;
 }
 
-.inicio{
+/* .inicio{
     background-color: gray;
-}
+} */
 
 #icono{
     width: 3%;
@@ -107,8 +112,8 @@ menu > a > li{
     body {
         background-color: grey;
     }
-   
-.h2_indumentaria{
+
+.robla_categorias{
     background-image: url(./Imagenes/r.png);
 }
 .h2_indumentaria{
@@ -200,11 +205,16 @@ h3{
     align-items: center;
 }
 
-.pie-pagina .grupo-1 .box .h2{
+.box2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;   
+}
+
+.box1{
     color: white;
     margin-bottom: 25px;
     font-size: 20px;
-    background-color: black;
 }
 
 .pie-pagina .grupo-2{
