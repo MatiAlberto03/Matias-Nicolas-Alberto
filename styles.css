@@ -1,7 +1,34 @@
 
-.navbar{ 
+.descuento{
     background-color: black;
+    text-align: center;
+    position: relative;
+    color: aliceblue;
+}
+.navbar{ 
+    background-color: #323844;
     opacity: 0.8;
+}
+
+.nav-item{
+    color: white;
+    text-align: center;
+}
+
+#Titular{
+    color: #8DABAC;
+    position: relative;
+}
+
+.inicio{
+    background-color: gray;
+}
+
+#icono{
+    width: 3%;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;   
 }
 
 *{
@@ -9,8 +36,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-
 
 .cont-temporizador{
     display: flex;
@@ -55,14 +80,13 @@
     width: 3%;
     position: fixed;
     bottom: 10px;
-    right: 20px;
-    background-color: darkgrey;
+    right: 20px;   
 }
 
 
 menu{
     list-style-type: none;
-    color: black
+    color: black;
 }
 
 menu > a > li{
@@ -85,7 +109,7 @@ menu > a > li{
     }
    
 .h2_indumentaria{
-    background-image: url(./Imagenes/Imagen1.jpg);
+    background-image: url(./Imagenes/r.png);
 }
 .h2_indumentaria{
     background-size: cover;
@@ -99,23 +123,17 @@ menu > a > li{
 .robla_categorias{
     margin-left: 20%;
     margin-top: 7rem;
-    display: flex;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 10;
     width: 60%;
-    height: 9px;
-}
-
-a {
-    
-
+    height: 6%;
 }
 
 .carousel-inner{
     width: 100%;
     position: fixed;
-    height: 100%;
+    height: 700px;
 }
 
 h3{
@@ -123,15 +141,16 @@ h3{
 }
 
 .nav-link-active{
-    color:white;}
+    color:white;
+}
 
 .body{
         display: grid;
         min-height: 100vh;
         grid-template-rows: auto 1fr auto;
-        background-color: white;
         margin: 0;
         position: relative;
+        color: black;
     }
 
 .product-container img{
@@ -159,7 +178,7 @@ h3{
 .pie-pagina{
     width: 100%;
     height: 30%;
-    background-color: grey;
+    background-color: #323844;
 }
 
 
@@ -185,23 +204,58 @@ h3{
     color: white;
     margin-bottom: 25px;
     font-size: 20px;
+    background-color: black;
 }
-
-.pie-pagina .grupo-1 .box .p{
-    color: whitesmoke;
-    margin-bottom: 10px;
-}
-
 
 .pie-pagina .grupo-2{
     background-color: black;
     padding: 15px 10px;
-    color: white
-}
-
+    color: white;
+} 
 
 .pie-pagina .grupo-2{
     font-size: 15px;
     text-align: center;
 }
+
+.LocalHombre{
+    background-color: cadetblue;
+    text-align: center;
+    font-stretch: 300;
+    display:block;
+    position: relative;
+}
+
+.LocalMujerItuzaingo{
+    background-color: cadetblue;
+    text-align: center;
+    font-stretch: 300;
+    display:block;
+    align-items: end;
+}
+
+.LocalMujerCastelar{
+    background-color: cadetblue;
+    text-align: center;
+    font-stretch: 300;
+    display:block;
+    align-items: end;
+}
+
+.ubicacion{
+    background-color: gray;
+}
+
+.hombre{
+    background-color: black; 
+}
+
+.mujer{
+    background-color:black;
+}
+
+
+
+
+
 
