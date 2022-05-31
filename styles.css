@@ -4,9 +4,10 @@
     text-align: center;
     position: relative;
     color: aliceblue;
+    text-shadow: 2px;
 }
+
 .navbar{ 
-    background-color: #323844;
     opacity: 0.8;
 }
 
@@ -15,19 +16,15 @@
     height: 10px;
 }
 
-.nav-item{
-    color: white;
-    text-align: center;
-}
-
 #Titular{
     color: #8DABAC;
     position: relative;
 }
 
-/* .inicio{
-    background-color: gray;
-} */
+.ImagenUbicacion{
+    width: 100%;
+    height: 1%;
+}
 
 #icono{
     width: 3%;
@@ -183,9 +180,12 @@ h3{
 .pie-pagina{
     width: 100%;
     height: 30%;
-    background-color: #323844;
+    background-color: #0c3c60;
 }
 
+.LogoInstagram{
+    width: 27px;
+}
 
 .pie-pagina .grupo-1{
     width: 100%;
@@ -205,6 +205,11 @@ h3{
     align-items: center;
 }
 
+.box h2{
+    color: white;
+}
+
+
 .box2{
     color: white;
     margin-bottom: 25px;
@@ -212,14 +217,15 @@ h3{
 }
 
 .box1{
-    color: white;
-    margin-bottom: 25px;
+    list-style: none;
+    clear: both;
     font-size: 20px;
+    color: white;
 }
 
 .pie-pagina .grupo-2{
-    background-color: black;
     padding: 15px 10px;
+    background-color: black;
     color: white;
 } 
 
@@ -228,32 +234,29 @@ h3{
     text-align: center;
 }
 
-.LocalHombre{
-    background-color: cadetblue;
+.LocalesUbicacion{
+    background-color: #0c3c60;
     text-align: center;
     font-stretch: 300;
     display:block;
     position: relative;
+    border:solid;
+    border-color: black;
+    border-radius: 25px;
+    color: white;
 }
 
-.LocalMujerItuzaingo{
-    background-color: cadetblue;
-    text-align: center;
-    font-stretch: 300;
-    display:block;
-    align-items: end;
+.map iframe {
+    width: 100%;
 }
 
-.LocalMujerCastelar{
-    background-color: cadetblue;
+.encabezado{
     text-align: center;
-    font-stretch: 300;
-    display:block;
-    align-items: end;
+    color: rgb(0, 0, 0);
 }
 
 .ubicacion{
-    background-color: gray;
+    background-color: #646464;
 }
 
 .hombre{
