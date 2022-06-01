@@ -104,19 +104,10 @@ menu > a > li{
     width: 11%;
 }
 
-.col{border: 1px solid black}
+/* .col{border: 1px solid black}
 .col-8{border:1px solid black}
-.btn-primary{background-color: black; border: black;}
+.btn-primary{background-color: black; border: black;} */
 
-@media screen and (min-width: 480px) {
-
-    body {
-        background-color: grey;
-    }
-
-.robla_categorias{
-    background-image: url(./Imagenes/r.png);
-}
 .h2_indumentaria{
     background-size: cover;
     background-repeat: no-repeat;
@@ -340,4 +331,10 @@ h3{
     color: #da1111e0;
 }
 
+@media screen and (min-width: 480px) 
+{
 
+    body {
+        background-color: grey;
+    }
+}
