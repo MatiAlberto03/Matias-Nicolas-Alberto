@@ -43,3 +43,5 @@ cargarSegundo();
     }   
     document.getElementById("minutos").innerHTML = txtMinutos;
 }
+
+
