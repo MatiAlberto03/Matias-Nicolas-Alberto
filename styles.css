@@ -134,7 +134,7 @@ menu > a > li{
 .carousel-inner{
     width: 100%;
     position: fixed;
-    height: 700px;
+    height: 690px;
 }
 
 h3{
@@ -188,6 +188,12 @@ h3{
 
 .LogoWhatsApp{
     width: 35px;
+}
+
+.FormaPago{
+    width: 100%;
+    border: solid;
+    height: 450px;
 }
 
 .pie-pagina .grupo-1{
