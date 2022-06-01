@@ -6,6 +6,11 @@
     text-shadow: 2px;
 }
 
+.descuento > h1{
+    margin: 0;
+}
+  
+
 .navbar{ 
     opacity: 0.8;
 }
@@ -139,6 +144,11 @@ menu > a > li{
 
 h3{
     color:white;
+}
+
+.HombreInicio{
+    width: 100%;
+    height: 100%;
 }
 
 .nav-link-active{
@@ -280,7 +290,20 @@ h3{
 
 .color{
     background-color: #c0c0c0;
+}
 
+.sucursales > h1{
+    text-align: center;
+    padding: 0em 0.6em 0;
+}
+
+.sucursales{
+    background-color: rgb(75, 138, 167);
+    text-align: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px;
+    padding: 0em 0.6em 0;
 }
 
 #Ropa1{ 
