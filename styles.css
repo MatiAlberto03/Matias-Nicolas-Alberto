@@ -1,4 +1,3 @@
-
 .descuento{
     background-color: black;
     text-align: center;
@@ -180,11 +179,15 @@ h3{
 .pie-pagina{
     width: 100%;
     height: 30%;
-    background-color: #0c3c60;
+    background-color: #ffffff;
 }
 
 .LogoInstagram{
     width: 27px;
+}
+
+.LogoWhatsApp{
+    width: 35px;
 }
 
 .pie-pagina .grupo-1{
@@ -206,12 +209,12 @@ h3{
 }
 
 .box h2{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 .box2{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 25px;
     font-size: 20px;   
 }
@@ -220,7 +223,7 @@ h3{
     list-style: none;
     clear: both;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .pie-pagina .grupo-2{
@@ -235,15 +238,15 @@ h3{
 }
 
 .LocalesUbicacion{
-    background-color: #0c3c60;
+    background-color: #000000bd;
     text-align: center;
     font-stretch: 300;
     display:block;
     position: relative;
     border:solid;
-    border-color: black;
+    border-color: rgb(83, 83, 83);
     border-radius: 25px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .map iframe {
@@ -255,20 +258,57 @@ h3{
     color: rgb(0, 0, 0);
 }
 
-.ubicacion{
-    background-color: #646464;
+
+/* Modify the background color */
+.navbar-custom{
+    background-color: #ffffff;
+    width: 100%;
 }
 
-.hombre{
-    background-color: black; 
+/* Modify brand y text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: rgb(0, 0, 0);
 }
 
-.mujer{
-    background-color:black;
+
+.color{
+    background-color: #c0c0c0;
+
 }
 
+#Ropa1{ 
+    color: rgb(83, 83, 83);
+    padding: 0em 0.6em 0;
+}
 
+.precioRopa{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    padding: 0em 0.6em 0;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #da1111e0;
+}
 
+.NombreRopa{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    padding: 0em 0.6em 0;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.877);
+}
 
+.DescuentoPrecio{
+    width: 100%;
+    font-weight: 400;
+    padding: 0em 0.6em 0;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #da1111e0;
+}
 
 
