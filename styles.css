@@ -10,6 +10,10 @@
     margin: 0;
 }
   
+#textColor{
+    text-decoration: none;
+    color: black;
+}
 
 .navbar{ 
     opacity: 0.8;
@@ -129,7 +133,7 @@ menu > a > li{
 
 .carousel-inner{
     width: 100%;
-    position: fixed;
+    /**position: fixed;**/
     height: 690px;
 }
 
@@ -220,7 +224,7 @@ h3{
 }
 
 
-.box2{
+.box2{ 
     color: rgb(0, 0, 0);
     margin-bottom: 25px;
     font-size: 20px;   
@@ -332,7 +336,7 @@ h3{
 }
 
 /* media */
-/* @media screen and (min-width: 400px){
+ @media screen and (max-width: 400px){
 
 .descuento{
     background-color: black;
@@ -439,12 +443,12 @@ h3{
     #logo-header{
         width: 11%;
     }
-    
+
     .col{border: 1px solid black}
     .col-8{border:1px solid black}
     .btn-primary{background-color: black; border: black;} */
     
-/* .h2_indumentaria{
+ .h2_indumentaria{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -667,4 +671,4 @@ h3{
         color: #da1111e0;
     }
 
-} */ */
+} 
