@@ -1,9 +1,10 @@
-let horas = 7;
+let horas = 24;
 let minutos = 0;
 let segundos = 0;
 cargarSegundo();
 
-//ejecuto los segundos
+
+//Definimos y ejecutamos los segundos
 function cargarSegundo(){
     let txtSegundos;
 
@@ -23,7 +24,7 @@ function cargarSegundo(){
     cargarMinutos(segundos);
 }
 
-//ejecuto los minutos
+//Definimos y ejecutamos los minutos
 function cargarMinutos(segundos){
     let txtMinutos;
 
@@ -47,7 +48,7 @@ function cargarMinutos(segundos){
     cargarHoras(segundos,minutos);
 }
 
-//ejecuto las horas
+//Definimos y ejecutamos las horas
 function cargarHoras(segundos,minutos){
     let txtHoras;
 
@@ -61,7 +62,7 @@ function cargarHoras(segundos,minutos){
         },500)
     }
 
-    //Mostrar horas en pantalla
+    //Mostrar Horas en pantalla
     if(horas < 10){
         txtHoras = `0${horas}`;
     }else{
@@ -70,5 +71,5 @@ function cargarHoras(segundos,minutos){
     document.getElementById('horas').innerHTML = txtHoras;
 }
 
-//Ejecuto cada segundo
+//Ejecutamos cada segundo
 setInterval(cargarSegundo,1000);
