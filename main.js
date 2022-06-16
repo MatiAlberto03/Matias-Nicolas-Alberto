@@ -72,3 +72,10 @@ function cargarHoras(segundos, minutos) {
 
 //Ejecutamos cada segundo
 setInterval(cargarSegundo, 1000);
+
+
+
+
+
+
+
