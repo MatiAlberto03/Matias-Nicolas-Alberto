@@ -1,3 +1,5 @@
+/* h1 de descuento */
+
 .descuento{
     background-color: black;
     text-align: center;
@@ -6,6 +8,13 @@
     text-shadow: 2px;
 }
 
+.descuento > h1{
+    margin: 0;
+}
+
+/* h1 de descuento */
+
+/* cuenta regresiva */
 .cont-temporizador{
     display: flex;
     justify-content: center;   
@@ -45,19 +54,18 @@
     color: #000000;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
-
-.descuento > h1{
-    margin: 0;
-}
+/* cuenta regresiva */
   
 #textColor{
     text-decoration: none;
     color: black;
 }
 
+/* .navbar */
 .navbar{ 
     opacity: 0.8;
 }
+/* .navbar */
 
 .Imagen1{
     width: 10px;
@@ -116,10 +124,6 @@ menu > a > li{
     width: 11%;
 }
 
-/* .col{border: 1px solid black}
-.col-8{border:1px solid black}
-.btn-primary{background-color: black; border: black;} */
-
 .h2_indumentaria{
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,12 +142,13 @@ menu > a > li{
     width: 60%;
     height: 6%;
 }
-
+/* .carousel-inner */
 .carousel-inner{
     width: 100%;
     position: fixed;
     height: 690px;
 }
+/* .carousel-inner */
 
 h3{
     color:white;
@@ -271,6 +276,7 @@ h3{
     border-radius: 25px;
     color: rgb(255, 255, 255);
 }
+
 
 .map iframe {
     width: 100%;
