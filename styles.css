@@ -261,7 +261,7 @@
 /* footer */
 
 /* media */
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 400px) {
   /* Descuento */
   .descuento {
     background-color: black;
