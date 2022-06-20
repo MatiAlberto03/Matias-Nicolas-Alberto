@@ -277,7 +277,7 @@
 
   /* .carousel-inner */
   .carousel-inner {
-    height: 400px;
+    height: 370px;
     position: fixed;
     width: 100%;
   }
@@ -385,7 +385,8 @@
     bottom: 10px;
     position: fixed;
     right: 20px;
-    width: 3%;
+    width: 5%;
+    
   }
 
   * {
