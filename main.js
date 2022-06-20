@@ -1,4 +1,4 @@
-let horas = 24;
+let horas = 22;
 let minutos = 0;
 let segundos = 0;
 cargarSegundo();
@@ -72,6 +72,7 @@ function cargarHoras(segundos, minutos) {
 
 //cada segundo
 setInterval(cargarSegundo, 1000);
+
 
 
 
